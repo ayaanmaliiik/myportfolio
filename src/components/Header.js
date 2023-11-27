@@ -29,17 +29,17 @@ function Header() {
         >
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="myportfolio/">
+              <a className="nav-link active" aria-current="page" href="/">
                 Home
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link " aria-current="page" href="myportfolio/About">
+              <a className="nav-link " aria-current="page" href="/About">
                 About
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link " aria-current="page" href="myportfolio/Contact">
+              <a className="nav-link " aria-current="page" href="/Contact">
                 Contact
               </a>
             </li>
