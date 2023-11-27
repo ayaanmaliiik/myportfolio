@@ -6,22 +6,22 @@ function Footer() {
           <div className="container justify-content-center">
             <ul className="navbar-nav  mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#home">
+                <a className="nav-link" aria-current="page" href="https://github.com/AyaanMalik-STUDIO">
                   Github
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link " aria-current="page" href="#about">
+                <a className="nav-link " aria-current="page" href="https://www.linkedin.com/in/ayaan-malik-165810186/">
                   LinkedIn
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link " aria-current="page" href="#contact">
+                <a className="nav-link " aria-current="page" href="/">
                   Blog
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link " aria-current="page" href="#contact">
+                <a className="nav-link " aria-current="page" href="/">
                   Youtube
                 </a>
               </li>
