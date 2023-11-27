@@ -11,9 +11,9 @@ function App() {
     <HashRouter>
       <Header />
       <Routes>
-        <Route exact path='#/' element={<Home/>}></Route>
-        <Route path='#/About' element={<About/>}></Route>
-        <Route path='#/Contact' element={<Contact/>}></Route>
+        <Route exact path='/' element={<Home/>}></Route>
+        <Route path='/About' element={<About/>}></Route>
+        <Route path='/Contact' element={<Contact/>}></Route>
       </Routes>
       <Footer />
     </HashRouter>
