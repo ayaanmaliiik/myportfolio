@@ -2,7 +2,7 @@ function Header() {
   return (
     <nav className="navbar navbar-expand-lg pt-3 pb-5">
       <div className="container">
-        <a className="logo navbar-brand" href="#">
+        <a className="logo navbar-brand" href="/">
           {/* <img
             src="/docs/5.2/assets/brand/bootstrap-logo.svg"
             alt="Ayaan Malik"
