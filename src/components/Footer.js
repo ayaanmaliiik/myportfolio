@@ -31,8 +31,8 @@ function Footer() {
         <p className="text-center">
           <small>Designed & Build by Ayaan Malik</small>
         </p>
-        <div className="text-center">
-          <a className="logo">AM</a>
+        <div className="text-center pt-3">
+          <a className="logo" href="/">AM</a>
         </div>
       </footer>
     </>
