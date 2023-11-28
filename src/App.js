@@ -11,9 +11,9 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route path='/' element={<Home/>}></Route>
-        <Route path='/About' element={<About/>}></Route>
-        <Route path='/Contact' element={<Contact/>}></Route>
+        <Route path='https://ayaanmalik-studio.github.io/myportfolio/' element={<Home/>}></Route>
+        <Route path='https://ayaanmalik-studio.github.io/myportfolio/About' element={<About/>}></Route>
+        <Route path='https://ayaanmalik-studio.github.io/myportfolio/Contact' element={<Contact/>}></Route>
       </Routes>
       <Footer />
     </>
