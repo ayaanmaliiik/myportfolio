@@ -24,7 +24,7 @@ function Header() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div
-          className="collapse navbar-collapse text-end"
+          className="collapse navbar-collapse text-center"
           id="navbarSupportedContent"
         >
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -34,13 +34,13 @@ function Header() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link " aria-current="page" href="/About">
-                About
+              <a className="nav-link " aria-current="page" href="https://github.com/AyaanMalik-STUDIO">
+              <i class="bi bi-github"></i>
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link " aria-current="page" href="/Contact">
-                Contact
+              <a className="nav-link " aria-current="page" href="https://www.linkedin.com/in/ayaan-malik-165810186/">
+              <i class="bi bi-linkedin"></i>
               </a>
             </li>
           </ul>
