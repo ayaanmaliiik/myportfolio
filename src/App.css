@@ -67,6 +67,12 @@ body {
   opacity: 1;
 }
 
+/* Skills  */
+
+.skills .card{
+  background-color: transparent !important;
+}
+
 /* Contact  */
 
 .contact .form-control:focus {
