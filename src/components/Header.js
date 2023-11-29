@@ -29,11 +29,6 @@ function Header() {
         >
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="/">
-                Home
-              </a>
-            </li>
-            <li className="nav-item">
               <a className="nav-link " aria-current="page" href="https://github.com/AyaanMalik-STUDIO">
               <i class="bi bi-github"></i>
               </a>
