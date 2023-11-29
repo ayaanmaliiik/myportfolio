@@ -16,77 +16,77 @@ const Skills = () => {
     <section className="skills">
     <h2 className="pb-2 pt-3">Skills</h2>
       <div className="container row">
-        <div className="col-lg-2 col-md-4 col-sm-4 ps-0">
+        <div className="col-lg-2 col-md-4 col-4 ps-0">
           <div className="card border-0">
             <div className="card-body text-center">
               <img src={HTML} />
             </div>
           </div>
         </div>
-        <div className="col-lg-2 col-md-4 col-sm-4 ps-0">
+        <div className="col-lg-2 col-md-4 col-4 ps-0">
           <div className="card border-0">
             <div className="card-body text-center">
               <img src={CSS} />
             </div>
           </div>
         </div>
-        <div className="col-lg-2 col-md-4 col-sm-4 ps-0">
+        <div className="col-lg-2 col-md-4 col-4 ps-0">
           <div className="card border-0">
             <div className="card-body text-center">
               <img src={JS} />
             </div>
           </div>
         </div>
-        <div className="col-lg-2 col-md-4 col-sm-4 ps-0">
+        <div className="col-lg-2 col-md-4 col-4 ps-0">
           <div className="card border-0">
             <div className="card-body text-center">
               <img src={JQUERY} />
             </div>
           </div>
         </div>
-        <div className="col-lg-2 col-md-4 col-sm-4 ps-0">
+        <div className="col-lg-2 col-md-4 col-4 ps-0">
           <div className="card border-0">
             <div className="card-body text-center">
               <img src={BOOTSTRAP} />
             </div>
           </div>
         </div>
-        <div className="col-lg-2 col-md-4 col-sm-4 ps-0">
+        <div className="col-lg-2 col-md-4 col-4 ps-0">
           <div className="card border-0">
             <div className="card-body text-center">
               <img src={REACT} />
             </div>
           </div>
         </div>
-        <div className="col-lg-2 col-md-4 col-sm-4 ps-0">
+        <div className="col-lg-2 col-md-4 col-4 ps-0">
           <div className="card border-0">
             <div className="card-body text-center">
               <img src={PHP} />
             </div>
           </div>
         </div>
-        <div className="col-lg-2 col-md-4 col-sm-4 ps-0">
+        <div className="col-lg-2 col-md-4 col-4 ps-0">
           <div className="card border-0">
             <div className="card-body text-center">
               <img src={MYSQL} />
             </div>
           </div>
         </div>
-        <div className="col-lg-2 col-md-4 col-sm-4 ps-0">
+        <div className="col-lg-2 col-md-4 col-4 ps-0">
           <div className="card border-0">
             <div className="card-body text-center">
               <img src={GIT} />
             </div>
           </div>
         </div>
-        <div className="col-lg-2 col-md-4 col-sm-4 ps-0">
+        <div className="col-lg-2 col-md-4 col-4 ps-0">
           <div className="card border-0">
             <div className="card-body text-center">
               <img src={GITHUB} />
             </div>
           </div>
         </div>
-        <div className="col-lg-2 col-md-12 col-sm-4 ps-0">
+        <div className="col-lg-2 col-md-12 col-4 ps-0">
           <div className="card border-0">
             <div className="card-body text-center">
               <img src={GITLAB} />
