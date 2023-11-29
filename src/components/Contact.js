@@ -18,11 +18,11 @@ function Contact() {
         };
 
   return (
-    <div className="contact py-5">
+    <div className="contact">
       <form ref={form} onSubmit={sendEmail}>
-        <h2 className="pt-5 pb-2">Lets Discuss Something Intresting !!!!</h2>
-        <div className="row mb-3">
-          <div className="col-7-lg col-md-12 col-sm-12">
+        <h2 className="pt-3 pb-2">Lets Discuss Something Intresting !!!!</h2>
+        <div className="container row mb-3">
+          <div className="col-lg-12 col-md-12 col-sm-12 p-0">
             <div className="form-floating mb-3">
               <input
                 type="text"
