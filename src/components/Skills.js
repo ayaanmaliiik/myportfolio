@@ -19,6 +19,13 @@ const Skills = () => {
       <div className="container row">
         <motion.div
           drag
+          dragConstraints={{
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+          }}
+          dragElastic={2}
           className="col-lg-2 col-md-4 col-4 ps-0"
         >
           <div className="card border-0">
@@ -27,70 +34,170 @@ const Skills = () => {
             </div>
           </div>
         </motion.div>
-        <motion.div drag className="col-lg-2 col-md-4 col-4 ps-0">
+        <motion.div
+          drag
+          dragConstraints={{
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+          }}
+          dragElastic={2}
+          className="col-lg-2 col-md-4 col-4 ps-0"
+        >
           <div className="card border-0">
             <div className="card-body text-center">
               <img src={CSS} />
             </div>
           </div>
         </motion.div>
-        <motion.div drag className="col-lg-2 col-md-4 col-4 ps-0">
+        <motion.div
+          drag
+          dragConstraints={{
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+          }}
+          dragElastic={2}
+          className="col-lg-2 col-md-4 col-4 ps-0"
+        >
           <div className="card border-0">
             <div className="card-body text-center">
               <img src={JS} />
             </div>
           </div>
         </motion.div>
-        <motion.div drag className="col-lg-2 col-md-4 col-4 ps-0">
+        <motion.div
+          drag
+          dragConstraints={{
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+          }}
+          dragElastic={2}
+          className="col-lg-2 col-md-4 col-4 ps-0"
+        >
           <div className="card border-0">
             <div className="card-body text-center">
               <img src={JQUERY} />
             </div>
           </div>
         </motion.div>
-        <motion.div drag className="col-lg-2 col-md-4 col-4 ps-0">
+        <motion.div
+          drag
+          dragConstraints={{
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+          }}
+          dragElastic={2}
+          className="col-lg-2 col-md-4 col-4 ps-0"
+        >
           <div className="card border-0">
             <div className="card-body text-center">
               <img src={BOOTSTRAP} />
             </div>
           </div>
         </motion.div>
-        <motion.div drag className="col-lg-2 col-md-4 col-4 ps-0">
+        <motion.div
+          drag
+          dragConstraints={{
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+          }}
+          dragElastic={2}
+          className="col-lg-2 col-md-4 col-4 ps-0"
+        >
           <div className="card border-0">
             <div className="card-body text-center">
               <img src={REACT} />
             </div>
           </div>
         </motion.div>
-        <motion.div drag className="col-lg-2 col-md-4 col-4 ps-0">
+        <motion.div
+          drag
+          dragConstraints={{
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+          }}
+          dragElastic={2}
+          className="col-lg-2 col-md-4 col-4 ps-0"
+        >
           <div className="card border-0">
             <div className="card-body text-center">
               <img src={PHP} />
             </div>
           </div>
         </motion.div>
-        <motion.div drag className="col-lg-2 col-md-4 col-4 ps-0">
+        <motion.div
+          drag
+          dragConstraints={{
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+          }}
+          dragElastic={2}
+          className="col-lg-2 col-md-4 col-4 ps-0"
+        >
           <div className="card border-0">
             <div className="card-body text-center">
               <img src={MYSQL} />
             </div>
           </div>
         </motion.div>
-        <motion.div drag className="col-lg-2 col-md-4 col-4 ps-0">
+        <motion.div
+          drag
+          dragConstraints={{
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+          }}
+          dragElastic={2}
+          className="col-lg-2 col-md-4 col-4 ps-0"
+        >
           <div className="card border-0">
             <div className="card-body text-center">
               <img src={GIT} />
             </div>
           </div>
         </motion.div>
-        <motion.div drag className="col-lg-2 col-md-4 col-4 ps-0">
+        <motion.div
+          drag
+          dragConstraints={{
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+          }}
+          dragElastic={2}
+          className="col-lg-2 col-md-4 col-4 ps-0"
+        >
           <div className="card border-0">
             <div className="card-body text-center">
               <img src={GITHUB} />
             </div>
           </div>
         </motion.div>
-        <motion.div drag className="col-lg-2 col-md-12 col-4 ps-0">
+        <motion.div
+          drag
+          dragConstraints={{
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+          }}
+          dragElastic={2}
+          className="col-lg-2 col-md-12 col-4 ps-0"
+        >
           <div className="card border-0">
             <div className="card-body text-center">
               <img src={GITLAB} />
