@@ -30,7 +30,7 @@ const Skills = () => {
         >
           <div className="card border-0">
             <div className="card-body text-center">
-              <img src={HTML} />
+              <img src={HTML} alt="Icons"/>
             </div>
           </div>
         </motion.div>
@@ -47,7 +47,7 @@ const Skills = () => {
         >
           <div className="card border-0">
             <div className="card-body text-center">
-              <img src={CSS} />
+              <img src={CSS} alt="Icons"/>
             </div>
           </div>
         </motion.div>
@@ -64,7 +64,7 @@ const Skills = () => {
         >
           <div className="card border-0">
             <div className="card-body text-center">
-              <img src={JS} />
+              <img src={JS} alt="Icons"/>
             </div>
           </div>
         </motion.div>
@@ -81,7 +81,7 @@ const Skills = () => {
         >
           <div className="card border-0">
             <div className="card-body text-center">
-              <img src={JQUERY} />
+              <img src={JQUERY} alt="Icons"/>
             </div>
           </div>
         </motion.div>
@@ -98,7 +98,7 @@ const Skills = () => {
         >
           <div className="card border-0">
             <div className="card-body text-center">
-              <img src={BOOTSTRAP} />
+              <img src={BOOTSTRAP} alt="Icons"/>
             </div>
           </div>
         </motion.div>
@@ -115,7 +115,7 @@ const Skills = () => {
         >
           <div className="card border-0">
             <div className="card-body text-center">
-              <img src={REACT} />
+              <img src={REACT} alt="Icons"/>
             </div>
           </div>
         </motion.div>
@@ -132,7 +132,7 @@ const Skills = () => {
         >
           <div className="card border-0">
             <div className="card-body text-center">
-              <img src={PHP} />
+              <img src={PHP} alt="Icons"/>
             </div>
           </div>
         </motion.div>
@@ -149,7 +149,7 @@ const Skills = () => {
         >
           <div className="card border-0">
             <div className="card-body text-center">
-              <img src={MYSQL} />
+              <img src={MYSQL} alt="Icons"/>
             </div>
           </div>
         </motion.div>
@@ -166,7 +166,7 @@ const Skills = () => {
         >
           <div className="card border-0">
             <div className="card-body text-center">
-              <img src={GIT} />
+              <img src={GIT} alt="Icons"/>
             </div>
           </div>
         </motion.div>
@@ -183,7 +183,7 @@ const Skills = () => {
         >
           <div className="card border-0">
             <div className="card-body text-center">
-              <img src={GITHUB} />
+              <img src={GITHUB} alt="Icons"/>
             </div>
           </div>
         </motion.div>
@@ -200,7 +200,7 @@ const Skills = () => {
         >
           <div className="card border-0">
             <div className="card-body text-center">
-              <img src={GITLAB} />
+              <img src={GITLAB} alt="Icons"/>
             </div>
           </div>
         </motion.div>

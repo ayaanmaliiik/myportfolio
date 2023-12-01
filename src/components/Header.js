@@ -2,13 +2,7 @@ function Header() {
   return (
     <nav className="navbar navbar-expand-lg pt-3 pb-5">
       <div className="container">
-        <a className="logo navbar-brand" href="/">
-          {/* <img
-            src="/docs/5.2/assets/brand/bootstrap-logo.svg"
-            alt="Ayaan Malik"
-            width="30"
-            height="24"
-          /> */}
+        <a className="logo navbar-brand" href="/myportpolio/">
           Am
         </a>
 
@@ -30,14 +24,24 @@ function Header() {
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <a className="nav-link " aria-current="page" href="https://github.com/AyaanMalik-STUDIO">
-              <i class="bi bi-github"></i>
+              Github
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link " aria-current="page" href="https://www.linkedin.com/in/ayaan-malik-165810186/">
-              <i class="bi bi-linkedin"></i>
+              LinkedIn
               </a>
             </li>
+            <li className="nav-item">
+                <a className="nav-link " aria-current="page" href="/myportpolio/">
+                  Blog
+                </a>
+              </li>
+            <li className="nav-item">
+                <a className="nav-link " aria-current="page" href="/myportpolio/">
+                  Youtube
+                </a>
+              </li>
           </ul>
         </div>
       </div>
