@@ -2,7 +2,7 @@ function Header() {
   return (
     <nav className="navbar navbar-expand-lg pt-3 pb-5">
       <div className="container">
-        <a className="logo navbar-brand" href="/myportpolio/">
+        <a className="logo navbar-brand" href="/myportfolio/">
           Am
         </a>
 
@@ -33,12 +33,12 @@ function Header() {
               </a>
             </li>
             <li className="nav-item">
-                <a className="nav-link " aria-current="page" href="/myportpolio/">
+                <a className="nav-link " aria-current="page" href="/myportfolio/">
                   Blog
                 </a>
               </li>
             <li className="nav-item">
-                <a className="nav-link " aria-current="page" href="/myportpolio/">
+                <a className="nav-link " aria-current="page" href="/myportfolio/">
                   Youtube
                 </a>
               </li>

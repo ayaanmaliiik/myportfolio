@@ -16,12 +16,12 @@ function Footer() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link " aria-current="page" href="/myportpolio/">
+                <a className="nav-link " aria-current="page" href="/myportfolio/">
                   Blog
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link " aria-current="page" href="/myportpolio/">
+                <a className="nav-link " aria-current="page" href="/myportfolio/">
                   Youtube
                 </a>
               </li>
@@ -32,7 +32,7 @@ function Footer() {
           <small>Designed & Build by Ayaan Malik</small>
         </p>
         <div className="text-center pt-3">
-          <a className="logo" href="/myportpolio/">AM</a>
+          <a className="logo" href="/myportfolio/">AM</a>
         </div>
       </footer>
     </>
