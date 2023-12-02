@@ -7,31 +7,18 @@ import Footer from "./components/Footer";
 import Experience from "./components/Experience";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
-import { BrowserRouter, Routes, Route} from "react-router-dom";
 
 function App() {
   return (
     <>
-    <BrowserRouter basename={ process.env.PUBLIC_URL}>
-    <Header />
-      <Routes>
-      
-      <Route exact path="/" element={<Hero />} />
-      <Route exact path="https://ayaanmalik-studio.github.io/myportfolio/about/" element={<About />} />
-      <Route exact path="/skills" element={<Skills />} />
-      <Route exact path="/projects" element={<Projects />} />
-      <Route exact path="/experience" element={<Experience />} />
-      <Route exact path="/contact" element={<Contact />} />
-      {/* <Hero />
+      <Header />
+      <Hero />
       <About />
       <Skills />
       <Projects />
       <Experience />
-      <Contact /> */}
-      
-      </Routes>
+      <Contact />
       <Footer />
-      </BrowserRouter>
     </>
   );
 }
