@@ -17,7 +17,7 @@ function App() {
       <Routes>
       
       <Route exact path="/" element={<Hero />} />
-      <Route exact path="/about" element={<About />} />
+      <Route exact path="https://ayaanmalik-studio.github.io/myportfolio/about/" element={<About />} />
       <Route exact path="/skills" element={<Skills />} />
       <Route exact path="/projects" element={<Projects />} />
       <Route exact path="/experience" element={<Experience />} />
