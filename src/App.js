@@ -7,32 +7,31 @@ import Footer from "./components/Footer";
 import Experience from "./components/Experience";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
-import { useRef } from "react";
-import { motion, } from "framer-motion";
+import { BrowserRouter, Routes, Route} from "react-router-dom";
 
 function App() {
-  const ref = useRef(null);
-
   return (
     <>
-      <motion.div
-      ref={ref}
-      className="box"
-      transition={{
-        type: "spring",
-        damping: 3,
-        stiffness: 50,
-        restDelta: 0.001
-      }}
-    />
-      <Header />
-      <Hero />
+    <BrowserRouter basename={ process.env.PUBLIC_URL}>
+    <Header />
+      <Routes>
+      
+      <Route exact path="/" element={<Hero />} />
+      <Route exact path="/about" element={<About />} />
+      <Route exact path="/skills" element={<Skills />} />
+      <Route exact path="/projects" element={<Projects />} />
+      <Route exact path="/experience" element={<Experience />} />
+      <Route exact path="/contact" element={<Contact />} />
+      {/* <Hero />
       <About />
       <Skills />
       <Projects />
       <Experience />
-      <Contact />
+      <Contact /> */}
+      
+      </Routes>
       <Footer />
+      </BrowserRouter>
     </>
   );
 }
