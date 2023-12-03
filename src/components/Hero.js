@@ -1,4 +1,4 @@
-import Profile from './images/profile.png';
+// import Profile from './images/profile.png';
 
 function Hero() {
   return (

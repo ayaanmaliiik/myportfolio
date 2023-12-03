@@ -1,3 +1,7 @@
+import Experience from "./Experience";
+import Projects from "./Projects";
+import Skills from "./Skills";
+
 function About() {
   return (
     <section className="About">
@@ -13,6 +17,9 @@ function About() {
           <hr />
         </div>
       </div>
+      <Skills/>
+      <Projects/>
+      <Experience/>
     </section>
   );
 }

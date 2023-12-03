@@ -1,25 +1,23 @@
+import React from "react";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import "./App.css";
-import Hero from "./components/Hero";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import Experience from "./components/Experience";
-import Skills from "./components/Skills";
-import Projects from "./components/Projects";
+import Homepage from "./components/Homepage";
 
 function App() {
   return (
-    <>
+    <HashRouter>
       <Header />
-      <Hero />
-      <About />
-      <Skills />
-      <Projects />
-      <Experience />
-      <Contact />
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
       <Footer />
-    </>
+    </HashRouter>
   );
 }
 
