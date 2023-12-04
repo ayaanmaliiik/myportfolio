@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -42,9 +43,9 @@ function Footer() {
           <small>Designed & Built by Ayaan Malik</small>
         </p>
         <div className="text-center pt-3">
-          <a className="logo" href="/">
-            AM
-          </a>
+        <Link to="/" className="logo">
+          Am
+        </Link>
         </div>
       </footer>
     </>
