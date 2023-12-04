@@ -1,25 +1,33 @@
 import React from "react";
-// import ArmTech from "./images/armtech.png";
 
 const Projects = () => {
+  const projectsList = [
+    {
+      name: "ArmTech - (inprogress)",
+      description:
+        "My personal front-end showcase, highlighting design and coding projects.",
+      link: "/",
+    },
+    {
+      name: "Todo App",
+      description:
+      "Write and manage tasks effortlessly in this local todo app. Remember, your tasks vanish after a refresh—a digital notepad for fleeting needs.",
+      link: "/",
+    },
+    // Add more projects here as needed
+  ];
+
   return (
     <section className="projects">
-      <h2 className="pt-3 pb-2">Projects</h2>
-      <div className="container p-0 text-center">
-        <div className="row pb-2">
-          <div className="col-lg-6 col-md-6 col-sm-12">
-            <div className="card">
-              {/* <img src="" className="card-img-top" alt="armtech" /> */}
-              <div className="card-body">
-                <h5 className="card-title">Armtech</h5>
-                <p className="card-text">"ArmTech: My personal front-end showcase, highlighting design and coding projects."</p>
-                {/* <a href="/" className=""></a> */}
-              </div>
-            </div>
-          </div>
-        </div>
-        <hr />
-      </div>
+      <h2>Projects</h2>
+      {projectsList.map((project, index) => (
+        <p key={index} className="py-1">
+          <a href={project.link} className="">
+            {project.name}
+          </a>{" "}
+          : {project.description}
+        </p>
+      ))}
     </section>
   );
 };

@@ -1,6 +1,6 @@
 function Experience() {
   return (
-    <section className="project">
+    <section className="project py-5">
       <h2 className="pt-3 pb-1">Experience</h2>
       <div className="container p-0">
         <ul className="p-0">
@@ -31,7 +31,6 @@ function Experience() {
             </p>
           </li>
         </ul>
-        <hr/>
       </div>
     </section>
   );

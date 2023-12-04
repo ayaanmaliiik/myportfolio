@@ -16,9 +16,14 @@ p {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 6rem;
+  font-weight: bolder;
+  letter-spacing: -5px;
 }
 
+h2{
+  padding: 1rem 0;
+}
 body {
   max-width: 60vw;
   margin: auto;
@@ -44,20 +49,21 @@ body {
 
 /* Hero  */
 
-.hero p {
-  font-size: 1.5rem;
+.hero p{
+  opacity: 0.64;
+  font-size: 1.7rem;
+  transition: opacity 0.2s ease-in-out;
+  letter-spacing: -2px;
 }
 
-.hero .profile {
-  width: 300px;
-  height: 300px;
-  text-align: center;
-  display: block;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  border-radius: 25%;
+
+/* Responsive styling using media query */
+@media (min-width: 768px) {
+  .profile-image {
+    max-width: 100%; /* Adjust as needed for your layout */
+  }
 }
+
 
 /* Projects  */
 .project li {

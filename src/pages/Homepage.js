@@ -1,6 +1,6 @@
 import React from 'react'
-import Experience from './Experience'
-import Hero from './Hero'
+import Experience from '../components/Experience'
+import Hero from '../components/Hero'
 
 const Homepage = () => {
   return (

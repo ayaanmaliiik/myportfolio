@@ -2,10 +2,10 @@ import React from "react";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import "./App.css";
-import About from "./components/About";
-import Contact from "./components/Contact";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
-import Homepage from "./components/Homepage";
+import Homepage from "./pages/Homepage";
 
 function App() {
   return (
