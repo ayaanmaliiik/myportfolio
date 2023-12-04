@@ -42,7 +42,7 @@ function Footer() {
           <small>Designed & Built by Ayaan Malik</small>
         </p>
         <div className="text-center pt-3">
-          <a className="logo" href="/myportfolio/">
+          <a className="logo" href="/">
             AM
           </a>
         </div>
