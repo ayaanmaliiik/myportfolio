@@ -9,7 +9,7 @@ const Skills = () => {
     "Bootstrap",
     "React",
     "Framer Motion",
-    "Matirial UI",
+    "Material UI",
     "PHP",
     "MySQL",
     "Git",
