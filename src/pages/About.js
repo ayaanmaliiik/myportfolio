@@ -11,7 +11,7 @@ function About() {
             <p>Ayaan Malik, Freelancer</p>
             <br />
             <h2 className="">Belief</h2>
-            <p>" The magic you are looking for is in the work you are avoiding. "</p>
+            <p>"The magic you are looking for is in the work you are avoiding."</p>
             <br />
             <h2 className=" ">About Myself</h2>
             <p>

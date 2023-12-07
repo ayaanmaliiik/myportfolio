@@ -19,6 +19,11 @@ function Contact() {
 
   return (
     <div className="contact">
+      <div className='card'>
+        <div className='card-body'>
+          
+        </div>
+      </div>
       <form ref={form} onSubmit={sendEmail}>
         <h2 className="pt-3 pb-2">Lets Discuss Something Intresting !!!!</h2>
         <div className="container row mb-3">
