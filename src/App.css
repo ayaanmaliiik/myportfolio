@@ -21,7 +21,7 @@ h1 {
   letter-spacing: -5px;
 }
 
-h2{
+h2 {
   padding: 1rem 0;
 }
 body {
@@ -49,13 +49,12 @@ body {
 
 /* Hero  */
 
-.hero p{
+.hero p {
   opacity: 0.64;
   font-size: 1.7rem;
   transition: opacity 0.2s ease-in-out;
   letter-spacing: -2px;
 }
-
 
 /* Responsive styling using media query */
 @media (min-width: 768px) {
@@ -63,7 +62,6 @@ body {
     max-width: 100%; /* Adjust as needed for your layout */
   }
 }
-
 
 /* Projects  */
 .project li {
@@ -76,7 +74,7 @@ body {
 
 /* Skills  */
 
-.skills .card{
+.skills .card {
   background-color: transparent !important;
 }
 
@@ -86,7 +84,7 @@ body {
   color: #1d1d1d;
   background-color: #fff;
   outline: 0;
-  border-color:#ced4da;
+  border-color: #ced4da;
   box-shadow: none;
 }
 /* // Small devices (landscape phones, 576px and up) */
